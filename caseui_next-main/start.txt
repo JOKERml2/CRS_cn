@@ -1,0 +1,9 @@
+npm install
+npm run dev
+
+python proxy.py
+
+
+mvn clean package -Dmaven.test.skip=true
+
+java -jar target/chat-labelling-0.0.1-SNAPSHOT.war    --dbHost=localhost    --dbPort=3306    --dbUser=root   --dbPass=joker   --actionFile=E:/work/cvs_cn-master/caseui_next-main/resources/action.json    --backgroundFile=E:/work/cvs_cn-master/caseui_next-main/resources/background.json  --instructionFile=E:/work/cvs_cn-master/caseui_next-main/resources/instructions.html    --searchResultConfigFile=E:/work/cvs_cn-master/caseui_next-main/resources/searchResultConfig.json    --serverPort=9090

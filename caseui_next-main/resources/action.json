@@ -1,0 +1,60 @@
+{
+  "user": [
+    {
+      "title": "阐明意图",
+      "name": "Reveal",
+      "tooltip": "阐明您的产品购买意图开始一次新的对话。"
+    },
+    {
+      "title": "修改意图",
+      "name": "Revise",
+      "tooltip": "对您的意图进行更正"
+    },
+    {
+      "title": "需求问题回答/产品推荐反馈",
+      "name": "Interpret",
+      "tooltip": "回答一个系统关于目标产品的提问或对系统推荐的产品进行喜好反馈。"
+    },
+    {
+      "title": "未理解系统回复",
+      "name": "Inquire",
+      "tooltip": "无法理解系统回复的信息，对系统回复的信息进行进一步咨询。"
+    },
+    {
+      "title": "闲聊",
+      "name": "Chitchat",
+      "tooltip": "闲聊，如“你好”等。"
+    }
+  ],
+  "system": [
+    {
+      "title": "问用户一个需求问题",
+      "name": "Clarify",
+      "tooltip": "询问用户一个关于产品的明晰问题明确用户需求。",
+      "allowEmptySearch": true
+    },
+    {
+      "title": "推荐产品",
+      "name": "Recommend",
+      "tooltip": "向用户推荐一些产品。只有当您想要推荐一些产品时才选择此选项。"
+    },
+    {
+      "title": "未找到可推荐产品",
+      "name": "No answer",
+      "tooltip": "无法找到用户想要的产品。",
+      "allowEmptySearch": true
+    },
+    {
+      "title": "未理解用户回复",
+      "name": "Inquire",
+      "tooltip": "无法理解系统回复的信息，对用户回复的信息进行进一步咨询",
+      "allowEmptySearch": true
+    },
+    {
+      "title": "闲聊",
+      "name": "Chitchat",
+      "tooltip": "闲聊，如“你好”等。",
+      "allowEmptySearch": true
+    }
+  ]
+}
